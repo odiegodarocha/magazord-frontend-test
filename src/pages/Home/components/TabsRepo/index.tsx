@@ -13,7 +13,7 @@ export function TabsRepo() {
   const { repositoriesStarred } = useContext(RepositoriesContext)
 
   return (
-    <Tabs.Root defaultValue={location.pathname.slice(1) || 'one'}>
+    <Tabs.Root defaultValue={location.pathname.slice(1) || 'repositories'}>
       <TabsList>
         <TabsTrigger value="repositories" asChild>
           <Link to="/repositories" replace>
