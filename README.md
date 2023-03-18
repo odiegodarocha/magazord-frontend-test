@@ -11,7 +11,7 @@
 ### Clone o projeto e acesse a pasta
 
 ```bash
-git clone https://github.com/odiegodarocha/ignite-lab-design-system.git
+git clone https://github.com/odiegodarocha/magazord-frontend-test.git
 ```
 
 ### Siga os passos abaixo
