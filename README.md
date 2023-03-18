@@ -47,3 +47,7 @@ $ npm run dev
 ## Github
 
 - [https://github.com/odiegodarocha](https://github.com/odiegodarocha)
+
+<a href="https://github.com/odiegodarocha/ignite-lab-design-system/blob/main/LICENSE.md" target="_blank">
+  <img src="https://img.shields.io/github/license/odiegodarocha/ignite-lab-design-system">
+</a>
