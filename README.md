@@ -22,6 +22,7 @@ $ npm i
 
 # Iniciar o Servidor em Modo de Desenvolvimento
 $ npm run dev
+```
 
 ## Tecnologias e ferramentas utilizadas
 
