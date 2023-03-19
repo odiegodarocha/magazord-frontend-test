@@ -26,7 +26,23 @@ export const SearchFormContainer = styled.form`
       left: 0;
     }
   }
+
+  @media only screen and (min-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   @media only screen and (min-width: 992px) {
+    flex-direction: row-reverse;
+  }
+`
+
+export const InputGroup = styled.div`
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  @media only screen and (min-width: 768px) {
     flex-direction: row-reverse;
   }
 
@@ -42,7 +58,7 @@ export const SearchFormContainer = styled.form`
     flex: 1;
     border: 0;
     color: ${(props) => props.theme['gray-300']};
-    padding: 1rem 0.6rem;
+    padding: 1rem 1.6rem;
     background-color: ${(props) => props.theme['gray-100']};
     width: 100%;
 
@@ -121,7 +137,7 @@ export const DropdownMenuTrigger = styled(DropdownMenu.Trigger)`
       height: 10px;
     }
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 992px) {
     font-size: 1.8rem;
     height: 40px;
   }

@@ -5,6 +5,7 @@ import {
   CheckboxRoot,
   DropdownMenuContent,
   DropdownMenuTrigger,
+  InputGroup,
   MenuBlock,
   SearchFormContainer,
 } from './styles'
@@ -113,8 +114,10 @@ export function SearchForm() {
         </DropdownMenu.Root>
       </MenuBlock>
 
-      <input type="text" placeholder="Search Here" />
-      <MagnifyingGlass size={26} />
+      <InputGroup>
+        <input type="text" placeholder="Search Here" />
+        <MagnifyingGlass size={26} />
+      </InputGroup>
     </SearchFormContainer>
   )
 }
